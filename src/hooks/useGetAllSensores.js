@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getAllSensores } from './services/sensores';
+import { getAllSensores } from './../services/sensores'
 
 export const useGetAllSensores = () => {
     const [dataSensores, setDataSensores] = useState(null)
@@ -13,8 +13,5 @@ export const useGetAllSensores = () => {
         })()
     }, [])
 
-    console.log(dataSensores)
     return { dataSensores, loading }
 }
-
-
