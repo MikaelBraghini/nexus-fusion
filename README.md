@@ -1,2 +1,2 @@
 # nexus-fusion
-Aplicação para analise de dados de hardwares para analise de qualidade do ar (IQAR)
+Aplicação para exibição de dados de hardwares coletores de dados para medição da qualidade do ar (IQAR)
