@@ -1,11 +1,9 @@
-import { StyleSheet, Text, View } from 'react-native';
-import { DashBoard } from './screens/dashBoard';
+import { AppNavigator } from './navigation/AppNavigator';
+import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
   return (
-    <View>
-      <DashBoard></DashBoard>
-    </View>
+    <AppNavigator />
   );
 }
 
