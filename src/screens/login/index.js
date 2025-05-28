@@ -9,28 +9,28 @@ export function Login({ navigation }) {
     return (
         <View style={styles.container}>
             <View style={styles.card}>
-                <Text style={styles.title}>Welcome Back!</Text>
+                <Text style={styles.title}>Seja Bem-Vindo!</Text>
 
                 <TextInput
                     style={styles.input}
-                    placeholder="Username"
+                    placeholder="Usuário"
                     placeholderTextColor="#999"
                 />
 
                 <TextInput
                     style={styles.input}
-                    placeholder="Password"
+                    placeholder="Senha"
                     placeholderTextColor="#999"
                     secureTextEntry
                 />
 
                 <TouchableOpacity style={styles.button} onPress={handleLogin}>
-                    <Text style={styles.buttonText}>Sign In</Text>
+                    <Text style={styles.buttonText}>Entrar</Text>
                 </TouchableOpacity>
 
                 <Text style={styles.footerText}>
-                    Don’t have an account?{' '}
-                    <Text style={styles.linkText}>Sign up now!</Text>
+                    Não tem uma conta??{' '}
+                    <Text style={styles.linkText}>Inscreva-se agora!</Text>
                 </Text>
             </View>
         </View>

@@ -6,10 +6,10 @@ const { width } = Dimensions.get('window');
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#FFA07A', // fundo de base caso o gradiente falhe
+        backgroundColor: '#FF4500', // fundo de base caso o gradiente falhe
         alignItems: 'center',
         justifyContent: 'center',
-        background: 'linear-gradient(160deg, #FF7F50, #FFB347)', // visual referência
+         // visual referência
     },
     card: {
         backgroundColor: '#fff',
