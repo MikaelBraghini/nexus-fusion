@@ -6,7 +6,7 @@ const { width } = Dimensions.get('window');
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#FF4500', // fundo de base caso o gradiente falhe
+        backgroundColor: '#f5842f', // fundo de base caso o gradiente falhe
         alignItems: 'center',
         justifyContent: 'center',
          // visual referência
