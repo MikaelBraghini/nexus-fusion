@@ -5,4 +5,6 @@ export const postAuthUser = async (data) => {
     user: data.user,
     password: data.password,
   })
+
+  return response
 }

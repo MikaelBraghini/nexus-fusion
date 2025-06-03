@@ -11,7 +11,7 @@ export function Login({ navigation }) {
     try {
       const dados = await postAuthUserRequest({ user, password })
       console.log(dados)
-      if (dados?.success) {
+      if (dados?.usuario) { 
         navigation.replace("Dashboard")
       } else {
         alert("Usuário ou senha inválidos")
