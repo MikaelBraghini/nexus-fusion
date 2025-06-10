@@ -24,10 +24,10 @@ export function DashBoard() {
     ).padStart(2, "0")}`;
   });
 
-  const ozonio = dataSensores.map((item) => item.mq131_analog_value);
-  const qualidadeAr = dataSensores.map((item) => item.mq135_analog_value);
-  const co = dataSensores.map((item) => item.mq7_analog_value);
-  const particulas = dataSensores.map((item) => item.dsm501a_pulses);
+  const ozonio = dataSensores.map((item) => item.ozonio);
+  const qualidadeAr = dataSensores.map((item) => item.gases);
+  const co = dataSensores.map((item) => item.carbono);
+  const particulas = dataSensores.map((item) => item.poeira);
 
   // Normalização para IQAR
   const normalizar = (valor, min, max) => {
